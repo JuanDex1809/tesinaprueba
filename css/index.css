@@ -1,0 +1,60 @@
+body{
+    background-image: url("../images/fondocompleto1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+    margin-left: 50px;
+}
+
+h1{
+    color: #fcf4f4;
+    font-family: Bebas Neue;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #f7f2f2;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.btn{
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #1a72a5;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 800;
+    margin-left: 150px;
+    margin-top: 100px;
+
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bx{
+    font-size: 60px;
+    margin-left: 5px;
+    margin-right: -20px;
+    margin-top: 1px;
+}

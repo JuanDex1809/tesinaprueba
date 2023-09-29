@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Software Solutions - Login</title>
+
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="caja-login">
+        <div class="titulo-principal">
+            <p>Iniciar sesión</p>
+        </div>
+        <div class="pregunta-login-1">
+            <p>¿No tienes una cuenta? <a href="registro.html">Regístrate</a></p>
+        </div>
+        <form action="inicio.html" method="get">
+            <div class="texto-form">
+
+                <input type="number" id="ruc" name="ruc" placeholder="Ingrese RUC"><br> <!-- RUC: 10090499055 -->
+
+                <input type="password" id="pass" name="pass" placeholder="Ingrese contraseña"><br>
+
+                <input type="submit" name="ingresar" id="ingresar" value="Ingresar">
+
+                <div class="pregunta-login-2">
+                    <p>¿Olvidaste tu contraseña? <a href="olvidarpass.html">Clic aquí</a></p>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>

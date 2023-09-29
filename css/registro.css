@@ -1,0 +1,115 @@
+body{
+    background-image: url("../images/fondocompleto.png");
+}
+
+.caja-login{
+    border-radius: 100px;
+    border: 1px solid #ffffff;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 642px;
+    height: 710px;
+    flex-shrink: 0;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.titulo-principal{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.texto-form{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.texto-form input[type="number"],
+.texto-form input[type="text"],
+.texto-form input[type="email"],
+.texto-form input[type="password"]{
+    display: block;
+    padding: 0 0 20px;
+    margin: 0 70px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    width: 500px;
+}
+
+.texto-form input[type="submit"]{
+    border-radius: 50px;
+    border: 1px solid #00000000;
+    background: #2a8ec9;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: -65px 375px;
+    display: block;
+    margin-bottom: 20px;
+    width: 200px;
+
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.btn-volver{
+    border-radius: 50px;
+    border: 1px solid #00000000;
+    background: #2a8ec9;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 70px;
+    display: block;
+    margin-bottom: 20px;
+    width: 200px;
+
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-login{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
